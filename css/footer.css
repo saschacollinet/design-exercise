@@ -1,0 +1,63 @@
+.huddle-footer {
+  border: 2px solid black;
+  background-color: black;
+  color: #fff;
+}
+
+.huddle-footer__position {
+  width: 80vw;
+  position: relative;
+  margin: 100px auto 50px auto;
+}
+
+.huddle-footer__logo {
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.footer-content {
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-content__item1 {
+  border: 2px solid red;
+  padding: 10px;
+}
+
+.footer-location {
+  display: flex;
+}
+
+.footer-location__img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-location__adress {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content__item2 {
+  border: 2px solid pink;
+  padding: 10px;
+}
+
+.footer-content__item3 {
+  border: 2px solid goldenrod;
+  padding: 10px;
+}
+
+.footer-content__item4 {
+  border: 2px solid hotpink;
+  padding: 10px;
+}
+
+.footer-copyright {
+  border: 2px solid brown;
+  padding: 10px;
+  text-align: right;
+  font-size: 0.7rem;
+}
