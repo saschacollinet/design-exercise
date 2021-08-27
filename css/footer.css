@@ -19,6 +19,29 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 992px) {
+    .footer-content {
+        display: block;
+    }
+    .footer-content__item1 {
+        width: 100% !important;
+    }
+    .footer-content__item4 {
+        justify-content: center;
+    }
+    .footer-copyright {
+        text-align: center !important;
+    }
+    .footer-logo {
+        max-width: 153px;
+    }
+    .footer-location p,
+    .footer-phone p,
+    .footer-mail a {
+        font-size: 14px;
+    }
+}
+
 .footer-content__item1 {
     padding: 10px;
     width: 35%;
