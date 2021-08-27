@@ -40,6 +40,13 @@
     .footer-mail a {
         font-size: 14px;
     }
+    .footer-location__img,
+    .footer-phone__img,
+    .footer-mail__img {
+        width: 16px !important;
+        height: 16px !important;
+        margin-top: 4px;
+    }
 }
 
 .footer-content__item1 {
