@@ -1,62 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .huddle-footer {
-  border: 2px solid black;
-  background-color: black;
+  background-color: #00252E;
   color: #fff;
+  padding: 100px 0 50px 0;
 }
 
 .huddle-footer__position {
   width: 80vw;
   position: relative;
-  margin: 100px auto 50px auto;
+  margin: 50px auto 50px auto;
 }
 
 .huddle-footer__logo {
-  border: 2px solid blue;
   padding: 10px;
 }
 
 .footer-content {
-  border: 2px solid green;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .footer-content__item1 {
-  border: 2px solid red;
   padding: 10px;
+  width: 35%;
 }
 
-.footer-location {
+.footer-location,
+.footer-phone,
+.footer-mail {
   display: flex;
+  margin-top: 10px;
 }
 
-.footer-location__img {
+.footer-location__img,
+.footer-phone__img,
+.footer-mail__img {
   width: 30px;
   height: 30px;
+  margin-right: 20px;
 }
 
-.footer-location__adress {
+.footer-location__adress,
+.footer-phone__number {
   padding: 0;
   margin: 0;
 }
 
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
 .footer-content__item2 {
-  border: 2px solid pink;
   padding: 10px;
 }
 
+.footer-menu1,
+.footer-menu2 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu__item {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .footer-content__item3 {
-  border: 2px solid goldenrod;
   padding: 10px;
 }
 
 .footer-content__item4 {
-  border: 2px solid hotpink;
   padding: 10px;
+  display: flex;
+}
+
+.footer-icon-fb,
+.footer-icon-twitter,
+.footer-icon-insta {
+  width: 20px;
+  height: 20px;
+  margin: 10px 5px 0 5px;
 }
 
 .footer-copyright {
-  border: 2px solid brown;
   padding: 10px;
   text-align: right;
   font-size: 0.7rem;
