@@ -1,4 +1,7 @@
 @import './_base.css';
+@import './main.css';
+@import './card.css';
+@import './cardsmall.css';
 @import './footer.css';
 @import './header.css';
 .container {
