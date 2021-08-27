@@ -1,4 +1,5 @@
 @import './_base.css';
+@import './footer.css';
 @import './header.css';
 .container {
     display: grid;
