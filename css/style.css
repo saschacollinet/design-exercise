@@ -6,7 +6,7 @@
     width: 1440px;
     height: 600px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 720px 1fr 1fr 100px;
+    grid-template-rows: 720px 1fr 1fr auto;
     grid-gap: 0rem;
     grid-template-areas: "header header" "content-1 content-1" "sidebar content-2" "footer footer";
 }
@@ -55,9 +55,4 @@ body {
 .content-2,
 .content-3 {
     background-image: linear-gradient(130deg, #6C52D9 0%, #1EAAFC 85%, #3EDFD7 100%);
-}
-
-.footer {
-    background-color: #6C52D9;
-    background-image: linear-gradient(160deg, #6C52D9 0%, #9B8AE6 127%);
 }

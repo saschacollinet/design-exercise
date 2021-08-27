@@ -115,7 +115,7 @@
         background: hsl(322, 100%, 66%);
     }
     .container {
-        grid-template-rows: auto 1fr 1fr 100px !important;
+        grid-template-rows: auto 1fr 1fr auto !important;
     }
     .header {
         padding: 20px 20px;
