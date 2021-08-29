@@ -1,13 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Design Exercise</title>
 </head>
+
 <body>
-    Welcome to your design exercise!
+    <div class="container">
+        <header class="header">
+            <div class="header__logo">
+                <a href="index.html"><img src="design/images/logo.svg" class="resp-img logo-img" alt="Logo Huddle"></a>
+            </div>
+            <div class="header__nav">
+                <button>Try It Free</button>
+            </div>
+            <div class="header__text-area">
+                <h1>Build The Community<br>Your Fans Will Love</h1>
+                <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+                <button class="header__call-to-action">
+                    Get Started For Free
+                </button>
+            </div>
+            <div class="header__img-area">
+                <img src="design/images/illustration-mockups.svg" class="resp-img" alt="" />
+            </div>
+        </header>
+        <main class="main content-1">
+            <article class="card">
+                <section class="card__content">
+                    <div class="card__textblock">
+                        <h3 class="card__title">Grow Together</h3>
+                        <p class="card__text">
+                            Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.
+                        </p>
+                    </div>
+                    <img src="./design/images/illustration-grow-together.svg" alt="" class="card__img" />
+                </section>
+            </article>
+            <article class="card">
+                <section class="card__content reverse">
+                    <div class="card__textblock resize">
+                        <h3 class="card__title">Flowing Conversations</h3>
+                        <p class="card__text">
+                            You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
+                        </p>
+                    </div>
+                    <img src="./design/images/illustration-flowing-conversation.svg" alt="" class="card__img" />
+                </section>
+            </article>
+            <article class="card">
+                <section class="card__content">
+                    <div class="card__textblock">
+                        <h3 class="card__title">Your Users</h3>
+                        <p class="card__text">
+                            It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
+                        </p>
+                    </div>
+                    <img src="./design/images/illustration-your-users.svg" alt="" class="card__img" />
+                </section>
+            </article>
+            <section class="cardsmall">
+                <h2 class="cardsmall__title">Ready To Build Your Community?</h2>
+                <button class="cardsmall__button">Get Started For Free</button>
+            </section>
+        </main>
+        <footer class="footer huddle-footer">
+            <div class="huddle-footer__position">
+                <section class="huddle-footer__logo">
+                    <img class="footer-logo" src="./design/images/footer2.svg" alt="" />
+                </section>
+                <section class="footer-content">
+                    <div class="footer-content__item1">
+                        <div class="footer-location">
+                            <img class="footer-location__img" src="./design/images/icon-location.svg" alt="" />
+                            <p class="footer-location__adress">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            </p>
+                        </div>
+                        <div class="footer-phone">
+                            <img class="footer-phone__img" src="./design/images/icon-phone.svg" alt="" />
+                            <p class="footer-phone__number">+1-543-123-4567</p>
+                        </div>
+                        <div class="footer-mail">
+                            <img class="footer-mail__img" src="./design/images/icon-email.svg" alt="" />
+                            <a class="footer-link" href="mailto:example@huddle.com">example@huddle.com</a
+              >
+            </div>
+          </div>
+          <div class="footer-content__item2">
+            <ul class="footer-menu1">
+              <li class="footer-menu__item"><a class="footer-link" href="">About Us</a></li>
+                            <li class="footer-menu__item"><a class="footer-link" href="">What We Do</a></li>
+                            <li class="footer-menu__item"><a class="footer-link" href="">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-content__item3">
+                            <ul class="footer-menu2">
+                                <li class="footer-menu__item"><a class="footer-link" href="">Career</a></li>
+                                <li class="footer-menu__item"><a class="footer-link" href="">Blog</a></li>
+                                <li class="footer-menu__item"><a class="footer-link" href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-content__item4">
+                            <ul>
+                                <li>
+                                    <i class="fab fa-facebook"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-twitter"></i>
+                                </li>
+                                <li>
+                                    <i class="fab fa-instagram"></i>
+                                </li>
+                            </ul>
+                        </div>
+                </section>
+                <section class="footer-copyright">
+                    © Copyright 2018 Huddle. All rights reserved.
+                </section>
+                </div>
+        </footer>
+
+        </div>
 </body>
+
 </html>
